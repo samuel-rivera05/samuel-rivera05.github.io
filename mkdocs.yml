@@ -1,0 +1,24 @@
+site_name: Mi Portafolio
+site_description: Página personal creada con MkDocs y Material
+site_author: Samuel Rivera Mira
+repo_url: https://github.com/samuel-rivera05/samuel-rivera05.github.io.git
+
+theme:
+  name: 'material'
+  language: 'es'
+  logo: images/logo.png
+  palette:
+    - scheme: default
+      primary: 'blue'
+      accent: 'indigo'
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Inicio: index.md
+  - Sobre mí: about.md
+  - Proyectos: proyectos.md
+
